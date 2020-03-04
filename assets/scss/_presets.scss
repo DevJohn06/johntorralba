@@ -1,0 +1,81 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px; 
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 47px;
+}
+
+h3 {
+    font-size: 44px;
+}
+
+h4 { 
+    font-size: 40px; 
+}
+
+h5 { 
+    font-size: 36px;
+}
+
+h6 {
+    font-size: 33px;
+}
+
+p {
+    padding: 0px; 
+    line-height: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+    font-size: 20px;
+
+    &:hover,
+    &:active { 
+        cursor: pointer;
+        background: #000;
+        color: white;
+    }
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+img {
+    display: block;
+}
+
+ul, li { 
+    list-style: none;
+    padding: 0;
+}
+
+
+.__container { 
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.__title {
+    padding: 20px;
+    background: #000;
+    font-weight: bold;
+}
+

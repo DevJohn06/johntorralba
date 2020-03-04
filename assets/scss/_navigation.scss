@@ -1,0 +1,15 @@
+.section__navigation {
+    .__container {
+        nav {
+         @include grid-two-column;
+
+            ul {
+                 justify-self: end;
+                li { 
+                    display: inline;
+                    
+                }
+            }
+        }  
+    }
+}

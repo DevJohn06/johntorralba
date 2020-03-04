@@ -1,0 +1,94 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 47px;
+}
+
+h3 {
+  font-size: 44px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 36px;
+}
+
+h6 {
+  font-size: 33px;
+}
+
+p {
+  padding: 0px;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  padding: 20px;
+  font-size: 20px;
+}
+
+a:hover, a:active {
+  cursor: pointer;
+  background: #000;
+  color: white;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+img {
+  display: block;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+
+.__container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.__title {
+  padding: 20px;
+  background: #000;
+  font-weight: bold;
+}
+
+.section__navigation .__container nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.section__navigation .__container nav ul {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.section__navigation .__container nav ul li {
+  display: inline;
+}
